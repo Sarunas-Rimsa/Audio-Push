@@ -82,7 +82,7 @@ BlobstoreService blobstoreService = BlobstoreServiceFactory.getBlobstoreService(
 		<tr><td><h1>Subtitle: </h1></td>
 			<td><input type="text" name="file_subtitle" placeholder="eg: 'Recorded while visiting my brother'" size="35" /></td>
 		</tr>
-		<tr><td><h1>MP3 file:*</h1></td>
+		<tr><td><h1>MP4 file:*</h1></td>
 			<td><input type="file" name="audio_file" required/></td>
 		</tr>
 		<tr><td><h1>Tags (comma separated): </h1></td>

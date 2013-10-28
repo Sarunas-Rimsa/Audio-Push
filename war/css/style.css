@@ -79,7 +79,8 @@
 		form select,
 		form textarea
 		{
-			-webkit-appearance: none;
+			/* Breaks input=radio in Chrome, leave commented */ 
+			/* -webkit-appearance: none; */
 		}
 			
 	br.clear

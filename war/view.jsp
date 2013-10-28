@@ -128,7 +128,7 @@
 													</ul>
 										</header>
 										<audio controls="controls">
-											<source src="/serve?audio=<%=record.getProperty("content")%>" type="audio/mp3" />
+											<source src="/serve?audio=<%=record.getProperty("content")%>" type="audio/mp4" />
 										</audio>
 										<p>
 											<%= record.getProperty("file_desc") %>

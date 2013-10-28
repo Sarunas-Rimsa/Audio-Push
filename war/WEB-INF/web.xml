@@ -10,11 +10,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet>
 	<servlet>
 		<servlet-name>Serve_Audio</servlet-name>
-		<servlet-class>lt.vu.mif.cloudcomputing.audiopush.ServeAudio</servlet-class>
+		<servlet-class>lt.vu.mif.cloudcomputing.audiopush.ServeAudioServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>Sign_Audio</servlet-name>
-		<servlet-class>lt.vu.mif.cloudcomputing.audiopush.SignAudio</servlet-class>
+		<servlet-class>lt.vu.mif.cloudcomputing.audiopush.CommentAudioServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>Edit_Servlet</servlet-name>

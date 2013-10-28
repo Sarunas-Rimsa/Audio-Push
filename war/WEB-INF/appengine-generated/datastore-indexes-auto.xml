@@ -1,0 +1,16 @@
+<!-- Indices written at Mon, 28 Oct 2013 19:34:00 EET -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="AudioRecord" ancestor="true" source="auto">
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 6 times in query history -->
+    <datastore-index kind="Greeting" ancestor="false" source="auto">
+        <property name="record_key" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
